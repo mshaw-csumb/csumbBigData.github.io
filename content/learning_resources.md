@@ -4,15 +4,16 @@ title: Learning Resources
 ---
 
 # Udacity 
-[Intro to Hadoop and MapReduce](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
+
+<a href="https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617" target="_blank">Intro to Hadoop and MapReduce</a>
 
 This course provides a great overview of the Hadoop ecosystem.  Big data definitions and problems are covered,as well as commands for running jobs, and creating mappers/reducers in Python.  
 A virtual machine can be downloaded that simulates the Hadoop environment, and allows the user to run MapReduce jobs, without having an actual cluster in place.
 Note:  These commands work on the Udacity, Hadoop image
 
-[Course Overview Video](https://www.youtube.com/watch?v=44K_bzTL_SM)
+<a href="https://www.youtube.com/watch?v=44K_bzTL_SM" target="_blank">Course Overview</a>
 
-[Big Data Wiki](https://en.wikipedia.org/wiki/Big_data)
+<a href="https://en.wikipedia.org/wiki/Big_data" target="_blank">Big Data Wiki</a>
 
 ## Commands/Notes
 **Testing mapper or reducer locally:**
