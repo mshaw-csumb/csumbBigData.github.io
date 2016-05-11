@@ -3,7 +3,7 @@ layout: default
 title: Hadoop Streaming
 ---
 
-#The Streaming Command
+#The Hadoop Streaming Command
 
 
 Hadoop Streaming allows for the running of MapReduce jobs in any programming language.
