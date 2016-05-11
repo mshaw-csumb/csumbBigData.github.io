@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hadoop Streaming
+title: Hadoop Streaming and Running MapReduce Jobs
 ---
 
 #The Hadoop Streaming Command
@@ -33,3 +33,5 @@ We created an alias for this command, to make running jobs easier. This can be d
 The alias code makes it possible to run the previous command in the following format:
 
     hs ./Mapper.py ./Reducer.py /mapRedInDir /mapRedOutDir
+    
+While the Mapper and Reducer files were in python, this will work for any language code.
