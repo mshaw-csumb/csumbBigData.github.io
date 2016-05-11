@@ -11,11 +11,11 @@ The full command to use Hadoop Streaming is very long as it requres the path to 
 
     yarn jar /usr/hdp/2.4.0.0-169/hadoop-mapreduce/hadoop-streaming-2.7.1.2.4.0.0-169.jar -mapper ./Mapper.py -reducer ./Reducer.py -file ./Mapper.py -file ./Reducer.py -input /mapRedInDir -output /mapRedOutDir
 
-The path on the -input option specifies the path to an input directory on the hadoop file system (HDFS) which has the data that you wish to run the MapReduce job on. The -output option specifies the output directory on the hadoop file system. The output directory must not exist when the command is ran, because hadoop will create the output directory.
+The path on the -input option specifies the path to an input directory on the hadoop file system (HDFS) which has the data that you wish to run the MapReduce job on. The -output option specifies the output directory on the hadoop file system. The output directory must not exist when the command is run, because hadoop will create the output directory.
 
 On our system we used the yarn command because our system has that tool installed, but yarn can be replaced with hadoop if Yarn is not installed.
 
-We created an alias for this command,
+We created an alias for this command, to make running jobs easier. This can be done by adding an alias to the .bashrc file of the user with write access to HDFS. 
    
        # User specific aliases and functions
      run_mapreduce(){
@@ -23,3 +23,7 @@ We created an alias for this command,
         }
      alias hs=run_mapreduce
 
+
+The alias code makes it possible to run the previous command in the following format:
+
+    hs ./Mapper.py ./Reducer.py /mapRedInDir /mapRedOutDir
