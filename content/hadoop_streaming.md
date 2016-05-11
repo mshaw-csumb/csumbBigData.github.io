@@ -3,6 +3,8 @@ layout: default
 title: Hadoop Streaming
 ---
 
+#The Streaming Command
+
 Hadoop Streaming allows for the running of MapReduce jobs in any programming language.
 
 MapReduce jobs are usually run using Java, but in our case we used Python for ease of use as a design decision.
