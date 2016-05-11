@@ -1,6 +1,6 @@
 ---
-layout:default
-title:Hadoop Streaming
+layout: default
+title: Hadoop Streaming
 ---
 
 Hadoop Streaming allows for the running of MapReduce jobs in any programming language.
