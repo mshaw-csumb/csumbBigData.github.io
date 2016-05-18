@@ -21,5 +21,7 @@ The _--connect_ command is for connecting to the database.
 The part in the string is our database's connect string, what sqoop will use to connect to the database and migrate the data.
 
 _--username_ and _-P_ are for giving sqoop access to the database as a user with the right permissions on the specific table that needs to be imported. _-P_ will make sqoop ask for the password in the command window as a prompt, this is more secure than entering the password into the command itself.
+
+parts-##### 
   
 
